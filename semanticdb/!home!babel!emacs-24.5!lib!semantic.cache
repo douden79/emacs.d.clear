@@ -1,0 +1,31 @@
+;; Object lib/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "lib/"
+  :tables
+  (list
+    (semanticdb-table "acl_entries.c"
+      :major-mode 'c-mode
+      :tags 
+        '( ("config.h" include (:system-flag t) nil [814 833])
+            ("acl-internal.h" include nil nil [835 860])
+            ("acl_entries" function
+               (:arguments 
+                  ( ("acl" variable (:type ("acl_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1073 1083]))                  
+                :type "int")
+                nil [1056 2300]))          
+      :file "acl_entries.c"
+      :pointmax 2301
+      :fsize 2300
+      :lastmodtime '(21710 25077 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "acl-internal.h"
+      :file "acl-internal.h"
+      :fsize 7675
+      :lastmodtime '(21788 61018 0 0))
+    (semanticdb-table "stdio.h"
+      :file "stdio.h"
+      :fsize 60236
+      :lastmodtime '(22179 37163 90454 754000)))
+  :file "!home!babel!emacs-24.5!lib!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
